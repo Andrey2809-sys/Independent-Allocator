@@ -37,3 +37,6 @@ int main() {
 
 - `make`          - build executable and object file (into `build/`)
 - `make run`       - run the executable
+
+
+**Star this repository if you find this project interesting or inspiring! ⭐**
