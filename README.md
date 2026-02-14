@@ -36,4 +36,4 @@ int main() {
 ## Build
 
 - `make`          - build executable and object file (into `build/`)
-- `make run`       - build and run the executable
+- `make run`       - run the executable
