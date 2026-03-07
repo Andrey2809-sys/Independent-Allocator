@@ -15,6 +15,8 @@ int main()
 
     int *x = ialloc(sizeof(int));
     *x = 4;
+    printf("%d\n", *x);
 
+    reset();
     return 0;
 }
