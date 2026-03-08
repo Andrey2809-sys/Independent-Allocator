@@ -8,8 +8,8 @@
 #define MAX_SIZE 4096
 #define CPU_CASHLINE_SIZE 64
 
-static uint16_t ptr = 0;
-__attribute__((aligned(CPU_CASHLINE_SIZE))) static char memory[MAX_SIZE]; 
+extern uint16_t ptr;
+__attribute__((aligned(CPU_CASHLINE_SIZE))) extern char memory[MAX_SIZE]; 
 
 void *ialloc(uint16_t size);
 void  reset();

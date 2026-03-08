@@ -1,5 +1,8 @@
 #include "./ialloc.h"
 
+uint16_t ptr = 0;
+char memory[MAX_SIZE];
+
 void *ialloc(uint16_t size)
 {
     if (size > MAX_SIZE) {
